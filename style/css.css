@@ -1,0 +1,72 @@
+/*黄星星的css文件 phone 18795603913*/
+
+
+/* 该处最好不用*去除所有元素的margin padding默认样式，网页上用到了什么标签，这边写什么标签 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+li{
+    list-style: none;
+}
+
+image{
+    border: none;
+}
+
+a{
+    text-decoration: none
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background: url(../images/body_bg.png) repeat-x white
+}
+
+/* top_menu 部分开始 */
+
+.top_menu{
+
+}
+
+.top_menu li{
+
+}
+
+.top_menu a{
+
+}
+
+.top_menu a:hover{
+
+}
+
+.top_menu .no_dot{
+
+}
+
+/* top_menu 部分结束 */
+
+
+/* top_bar 部分开始 */
+
+/* top_bar 部分结束 */
+.top_bar {
+
+}
+
+.top_bar li {
+
+}
+
+.top_bar .phone{
+
+}
+.top_bar .help{
+    
+}
