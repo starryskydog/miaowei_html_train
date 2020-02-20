@@ -7,66 +7,90 @@
     padding: 0;
     font-family: arial;
 }
-
 li{
     list-style: none;
 }
-
 image{
     border: none;
 }
-
 a{
     text-decoration: none
 }
-
 a:hover{
     text-decoration: none;
 }
-
 body{
     background: url(../images/body_bg.png) repeat-x white
 }
 
 /* top_menu 部分开始 */
-
+#top{
+    width: 960px;
+    height: 30px;
+    margin: 0 auto;
+}
 .top_menu{
-
+    float: left;
 }
-
 .top_menu li{
+    float: left;
+    /* right 点这个图片在li里面靠右显示 */
+    background: url(../images/top_ico.png) no-repeat right 14px;
+    /* 文字大小 */
+    font-size: 13px;
+    /* 文字居中 */
+    line-height: 30px; 
+    /* 调整文字右边跟点的的距离，因为文字跟点在li里面，所以用内边距 */
+    padding-right: 18px;
+    /* 调整文字左边跟点的的距离，因为文字的左边跟点不再li里面，所以勇敢外边距 */
+    margin-left: 14px;
+    
 
 }
-
 .top_menu a{
-
+    color: #c0c0c0
 }
-
 .top_menu a:hover{
-
+    color: white
 }
-
 .top_menu .no_dot{
-
+    /* Contact右边没有点 */
+    background: none;
+    padding: 0;
 }
-
 /* top_menu 部分结束 */
 
 
 /* top_bar 部分开始 */
-
-/* top_bar 部分结束 */
 .top_bar {
-
+    float: right;
 }
-
 .top_bar li {
-
+    float: left;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    /* 文字跟图片的的距离,当加上两个国旗的时候，该配置会把top_bar挤到下面，所以为了互相不影响，该配置放到.phone .help */
+    /* padding-left: 38px;
+    padding-right: 38px; */
+    /* padding: 0 38px; */
 }
-
 .top_bar .phone{
-
+    /* 0 -16px; 调整第一个参数是图片跟文字的间距 */
+    background: url(../images/top_ico.png) no-repeat 8px -16px;
+    padding: 0 38px;
 }
 .top_bar .help{
-    
+    background: url(../images/top_ico.png) no-repeat 0 -46px;
+    padding: 0 38px;
 }
+.top_bar .help a{
+    color: white;
+}
+.top_bar .space{
+    /* 解决两个图片靠的太近 */
+    margin-right: 12px; 
+}
+/* top_bar 部分结束 */
